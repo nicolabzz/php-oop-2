@@ -6,6 +6,8 @@ class Food extends Product
             $ingredients,
             $consistency;
 
+      // use MostPurchased;
+
       function __construct($weight, $ingredients, $consistency, $id, $name, $pruductor, $category, $price, $inStock, $image)
       {
             parent::__construct($id, $name, $pruductor, $category, $price, $inStock, $image);
