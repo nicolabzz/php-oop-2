@@ -19,3 +19,7 @@ Alcuni prodotti (es. antipulci) avranno la caratteristica che saranno disponibil
 
 -->
 <?php
+
+require_once __DIR__ . '/DataBaseShop.php';
+require_once __DIR__ . '/layout.php';
+
